@@ -1,0 +1,20 @@
+# Core versions recorded in the notebook; Torchvision is paired with PyTorch.
+torch==2.11.0
+torchvision==0.26.0
+ultralytics==8.4.183
+
+# Supporting packages: compatible ranges, not a full environment freeze.
+numpy>=1.26,<3
+pandas>=2.2.3,<3
+matplotlib>=3.9,<4
+opencv-python>=4.10,<5
+Pillow>=10.4,<13
+PyYAML>=6.0,<7
+gdown>=5.2,<6
+scikit-learn>=1.5,<2
+tqdm>=4.66,<5
+ipython>=8.27,<10
+arabic-reshaper>=3.0,<4
+python-bidi>=0.6,<1
+
+# google.colab is provided by Colab; do not install it separately.
